@@ -23,5 +23,6 @@ public class SearchitemPage extends TestBase {
 
 public void addToCart() {
         addtoCartBtn.click();
+        System.out.println("added to cart");
     }
 }
