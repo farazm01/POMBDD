@@ -35,8 +35,11 @@ public HomePage() {
     public SearchitemPage searchItem(String strItem) {
         searchBox.sendKeys(strItem);
         searchBtn.click();
+        System.out.println("item searched");
+        System.out.println("item searched2");
         return new SearchitemPage();
-	    System.out.println("item searched");
+	   
+	  
     }
 
 }
