@@ -36,6 +36,7 @@ public HomePage() {
         searchBox.sendKeys(strItem);
         searchBtn.click();
         return new SearchitemPage();
+	    System.out.println("item searched");
     }
 
 }
